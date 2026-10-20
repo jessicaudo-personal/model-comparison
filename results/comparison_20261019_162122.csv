@@ -1,0 +1,104 @@
+timestamp,label,provider,model,prompt,response,latency_s,input_tokens,output_tokens,tokens_per_sec,cost_usd,error,score,notes
+2026-10-19T16:21:22,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,Explain what a context window is to a high schooler in 3 sentences.,,,,,,,Missing OPENAI_API_KEY. Add it to your .env file.,,
+2026-10-19T16:21:22,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,"Who wrote the 2017 paper that introduced the Transformer architecture, and what was it called?",,,,,,,Missing OPENAI_API_KEY. Add it to your .env file.,,
+2026-10-19T16:21:22,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,A train leaves at 2:15 PM and travels 180 km at 72 km/h. What time does it arrive? Show your steps.,,,,,,,Missing OPENAI_API_KEY. Add it to your .env file.,,
+2026-10-19T16:21:22,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,Alice is taller than Bob. Bob is taller than Chen. Dana is shorter than Chen. Who is the second tallest?,,,,,,,Missing OPENAI_API_KEY. Add it to your .env file.,,
+2026-10-19T16:21:22,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,"Write a Python function that returns the n-th Fibonacci number using iteration, with a short docstring.",,,,,,,Missing OPENAI_API_KEY. Add it to your .env file.,,
+2026-10-19T16:21:22,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,"Summarize in two sentences: Quantization reduces the precision of a model's weights, shrinking memory use and speeding up inference at the cost of some accuracy. It is widely used to run large models on cheaper hardware.",,,,,,,Missing OPENAI_API_KEY. Add it to your .env file.,,
+2026-10-19T16:21:22,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,List exactly three benefits of running AI models locally. Use a numbered list and no more than 8 words per item.,,,,,,,Missing OPENAI_API_KEY. Add it to your .env file.,,
+2026-10-19T16:21:22,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,Write a four-line poem about a goalkeeper making a last-minute save.,,,,,,,Missing OPENAI_API_KEY. Add it to your .env file.,,
+2026-10-19T16:21:22,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,What did the CEO of Zorblatt Quantum Dynamics say at their 2019 shareholder meeting?,,,,,,,Missing OPENAI_API_KEY. Add it to your .env file.,,
+2026-10-19T16:21:22,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,"Explique en français, en deux phrases, ce qu'est un modèle de langage.",,,,,,,Missing OPENAI_API_KEY. Add it to your .env file.,,
+2026-10-19T16:21:22,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,"My friend is upset after losing a job. Suggest a kind, short message I could send.",,,,,,,Missing OPENAI_API_KEY. Add it to your .env file.,,
+2026-10-19T16:21:22,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,Give two reasons and one risk for a startup to host an open-weights model itself instead of using a paid API.,,,,,,,Missing OPENAI_API_KEY. Add it to your .env file.,,
+2026-10-19T16:21:22,llama3.2 (local Ollama),ollama,llama3.2,Explain what a context window is to a high schooler in 3 sentences.,"A context window is a small area on a computer screen that displays the text that you're currently working on, usually at the bottom of the screen. It shows you the words or sentences that you've typed or copied, and allows you to easily edit, cut, copy, and paste them without having to navigate away from where you are in the document. Having a context window makes it super convenient to work on documents, emails, or chats, and can save you a lot of time and frustration.",3.59,42,101,28.2,0.0,,,
+2026-10-19T16:21:25,llama3.2 (local Ollama),ollama,llama3.2,"Who wrote the 2017 paper that introduced the Transformer architecture, and what was it called?","The 2017 paper that introduced the Transformer architecture was written by Vaswani et al. and it was called ""Attention is All You Need"".",0.64,44,31,48.6,0.0,,,
+2026-10-19T16:21:26,llama3.2 (local Ollama),ollama,llama3.2,A train leaves at 2:15 PM and travels 180 km at 72 km/h. What time does it arrive? Show your steps.,"To find the arrival time, we need to calculate the time it takes for the train to travel 180 km at 72 km/h.
+
+Step 1: Calculate the time it takes to travel 180 km
+Time = Distance / Speed
+Time = 180 km / 72 km/h
+Time = 2.5 hours
+
+Step 2: Add the travel time to the departure time
+Departure time: 2:15 PM
+Travel time: 2.5 hours
+Arrival time: 2:15 PM + 2.5 hours
+
+Since 2.5 hours is equal to 2 hours and 30 minutes, we can add it to the departure time:
+
+2:15 PM + 2 hours = 4:15 PM
+4:15 PM + 30 minutes = 4:45 PM
+
+Therefore, the train arrives at 4:45 PM.",3.53,55,185,52.4,0.0,,,
+2026-10-19T16:21:30,llama3.2 (local Ollama),ollama,llama3.2,Alice is taller than Bob. Bob is taller than Chen. Dana is shorter than Chen. Who is the second tallest?,"To determine the second tallest, we need to establish the correct order from tallest to shortest.
+
+We know:
+
+1. Alice is taller than Bob.
+2. Bob is taller than Chen.
+3. Dana is shorter than Chen.
+
+From statement 2, we know Chen is shorter than Bob. From statement 1, we know Bob is shorter than Alice. Therefore, the correct order is: Alice > Bob > Chen.
+
+Since Dana is shorter than Chen, and Chen is shorter than Bob and Alice, we can conclude that Dana is the shortest person.
+
+So, the order from tallest to shortest is:
+1. Alice
+2. Bob
+3. Chen
+4. Dana
+
+Therefore, Bob is the second tallest.",2.65,49,145,54.7,0.0,,,
+2026-10-19T16:21:32,llama3.2 (local Ollama),ollama,llama3.2,"Write a Python function that returns the n-th Fibonacci number using iteration, with a short docstring.","def fibonacci(n):
+    """"""
+    Returns the n-th Fibonacci number using iteration.
+
+    Args:
+        n (int): The position of the Fibonacci number to return.
+
+    Returns:
+        int: The n-th Fibonacci number.
+    """"""
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        a, b = 0, 1
+        for _ in range(2, n + 1):
+            a, b = b, a + b
+        return b",2.07,45,113,54.5,0.0,,,
+2026-10-19T16:21:34,llama3.2 (local Ollama),ollama,llama3.2,"Summarize in two sentences: Quantization reduces the precision of a model's weights, shrinking memory use and speeding up inference at the cost of some accuracy. It is widely used to run large models on cheaper hardware.","Here is a two-sentence summary: Quantization reduces the precision of model weights, reducing memory usage and accelerating inference, but at the cost of some accuracy. This technique is commonly used to deploy large models on less powerful hardware, making them more efficient and cost-effective.",1.04,69,55,52.7,0.0,,,
+2026-10-19T16:21:35,llama3.2 (local Ollama),ollama,llama3.2,List exactly three benefits of running AI models locally. Use a numbered list and no more than 8 words per item.,"Here are three benefits of running AI models locally:
+
+1. Reduced latency and faster predictions.
+2. Improved security and data privacy concerns.
+3. Increased model execution stability always.",0.67,49,36,53.4,0.0,,,
+2026-10-19T16:21:36,llama3.2 (local Ollama),ollama,llama3.2,Write a four-line poem about a goalkeeper making a last-minute save.,"With seconds left to play, the crowd held its breath,
+The goalkeeper stood tall, his fate to be sealed in death.
+But he leapt with skill, his reflexes on display,
+And snatched the ball away, in a heroic save to end the fray.",1.03,39,55,53.2,0.0,,,
+2026-10-19T16:21:37,llama3.2 (local Ollama),ollama,llama3.2,What did the CEO of Zorblatt Quantum Dynamics say at their 2019 shareholder meeting?,"I couldn't find any information on a company called ""Zorblatt Quantum Dynamics."" It's possible that it's a fictional or non-existent company. If you could provide more context or clarify the name of the company, I'll do my best to help.",0.99,45,54,54.5,0.0,,,
+2026-10-19T16:21:38,llama3.2 (local Ollama),ollama,llama3.2,"Explique en français, en deux phrases, ce qu'est un modèle de langage.","Un modèle de langage est un ensemble de règles et de règles plus complexes qui définissent les possibilités de construction de phrases et de textes dans un langage spécifique, permettant ainsi de gérer et de comprendre le langage de manière efficace. Les modèles de langage peuvent être formalisés mathématiquement et utilisés dans divers domaines tels que la linguistique, la programmation et la reconnaissance par ordinateur du langage.",1.76,43,101,57.3,0.0,,,
+2026-10-19T16:21:40,llama3.2 (local Ollama),ollama,llama3.2,"My friend is upset after losing a job. Suggest a kind, short message I could send.","Here are a few suggestions for a kind and short message you could send to your friend:
+
+1. ""So sorry to hear about the job loss. You'll find something even better soon!""
+2. ""Thinking of you and sending all my best vibes. You're strong and capable, and this too shall pass.""
+3. ""Job loss can be tough, but you're not alone. I'm here for you and want to help in any way I can.""
+4. ""You got this! New opportunities are on the horizon, and you'll emerge from this even stronger.""
+5. ""Sending you a big hug and lots of support. You'll find a new path that's even better than before.""
+
+Choose the one that feels most authentic to you and your friendship, or feel free to modify them to fit your personal style.",2.85,45,168,58.9,0.0,,,
+2026-10-19T16:21:43,llama3.2 (local Ollama),ollama,llama3.2,Give two reasons and one risk for a startup to host an open-weights model itself instead of using a paid API.,"Here are two reasons and one risk for a startup to host an open-weights model itself instead of using a paid API:
+
+**Reasons:**
+
+1. **Cost Savings:** By hosting an open-weights model itself, a startup can avoid paying the costs associated with using a paid API, such as subscription fees, per-request charges, or data transfer fees. This can lead to significant cost savings, especially for startups with limited budgets.
+2. **Customization and Control:** Hosting an open-weights model allows a startup to have full control over the model's architecture, hyperparameters, and training data. This level of customization can be beneficial for startups that need to integrate their models with existing infrastructure or have specific requirements that aren't met by pre-trained APIs.
+
+**Risk:**
+
+1. **Maintenance and Updates:** Hosting an open-weights model requires ongoing maintenance and updates, including model retraining, data refresh, and software updates. This can be time-consuming and resource-intensive, especially for startups with limited in-house expertise. If the model is not properly maintained, its performance and accuracy may suffer, leading to decreased user trust and experience.
+
+Overall, hosting an open-weights model can be a cost-effective and customizable solution for startups, but it also comes with the risk of increased maintenance and update responsibilities.",4.4,49,263,59.7,0.0,,,

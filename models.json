@@ -1,0 +1,34 @@
+[
+  {
+    "label": "gpt-4o-mini (OpenAI)",
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "input_price_per_m": null,
+    "output_price_per_m": null,
+    "enabled": true
+  },
+  {
+    "label": "llama3.2 (local Ollama)",
+    "provider": "ollama",
+    "model": "llama3.2",
+    "input_price_per_m": 0,
+    "output_price_per_m": 0,
+    "enabled": true
+  },
+  {
+    "label": "OpenRouter model (fill in)",
+    "provider": "openrouter",
+    "model": "REPLACE_WITH_MODEL_ID_FROM_OPENROUTER",
+    "input_price_per_m": null,
+    "output_price_per_m": null,
+    "enabled": false
+  },
+  {
+    "label": "Venice model (fill in)",
+    "provider": "venice",
+    "model": "REPLACE_WITH_MODEL_ID_FROM_VENICE_DOCS",
+    "input_price_per_m": null,
+    "output_price_per_m": null,
+    "enabled": false
+  }
+]

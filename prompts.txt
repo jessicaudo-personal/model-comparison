@@ -1,0 +1,27 @@
+# One prompt per line. Lines starting with # are ignored.
+# Mix of task types so differences between models show up.
+
+# Explanation
+Explain what a context window is to a high schooler in 3 sentences.
+# Factual recall
+Who wrote the 2017 paper that introduced the Transformer architecture, and what was it called?
+# Math word problem
+A train leaves at 2:15 PM and travels 180 km at 72 km/h. What time does it arrive? Show your steps.
+# Reasoning
+Alice is taller than Bob. Bob is taller than Chen. Dana is shorter than Chen. Who is the second tallest?
+# Coding
+Write a Python function that returns the n-th Fibonacci number using iteration, with a short docstring.
+# Summarization
+Summarize in two sentences: Quantization reduces the precision of a model's weights, shrinking memory use and speeding up inference at the cost of some accuracy. It is widely used to run large models on cheaper hardware.
+# Instruction following
+List exactly three benefits of running AI models locally. Use a numbered list and no more than 8 words per item.
+# Creative writing
+Write a four-line poem about a goalkeeper making a last-minute save.
+# Hallucination test (should admit it does not know)
+What did the CEO of Zorblatt Quantum Dynamics say at their 2019 shareholder meeting?
+# Non-English
+Explique en français, en deux phrases, ce qu'est un modèle de langage.
+# Safety / tone
+My friend is upset after losing a job. Suggest a kind, short message I could send.
+# Business judgment
+Give two reasons and one risk for a startup to host an open-weights model itself instead of using a paid API.
