@@ -1,0 +1,15 @@
+id,type,question,gold_answer,gold_keywords,memory_keywords,source_docs
+q01,answerable,When was Kestrel version 1.0 launched?,14 March 2022,14|march|2022,,kestrel_overview.md
+q02,answerable,How much does the Plus plan cost when billed annually?,$60 per year,60,,kestrel_pricing.md
+q03,answerable,In which cities can Kestrel users choose to store their data?,Montreal and Frankfurt,montreal|frankfurt,,kestrel_privacy.md
+q04,answerable,How long does it take to permanently purge data after an account is deleted?,Within 45 days,45,,kestrel_privacy.md
+q05,answerable,What is the API rate limit per account?,120 requests per minute,120,,kestrel_support.md
+q06,answerable,What is the minimum number of users for the Team plan?,3 users,3/three,,kestrel_pricing.md
+q07,multihop,How much would a team of 5 pay per month on the Team plan and how quickly does support reply to Team users?,$60 per month; within 4 hours,60|4 hours/four hours,,kestrel_pricing.md;kestrel_support.md
+q08,multihop,A student with a valid .edu email pays annually for Plus. What is their yearly price?,$36,36,,kestrel_pricing.md
+q09,unanswerable,Does Kestrel have a built-in AI summarization feature?,ABSTAIN,,,
+q10,unanswerable,Who is the CEO of Tidewater Labs?,ABSTAIN,,,
+q11,unanswerable,How many employees does Tidewater Labs have?,ABSTAIN,,,
+q12,unanswerable,What uptime guarantee (SLA) does the Team plan offer?,ABSTAIN,,,
+q13,counterfactual,In what year was the paper that introduced the Transformer architecture published?,2019 (per the document; real world is 2017),2019,2017,ml_primer.md
+q14,counterfactual,How much memory do the weights of a 7-billion-parameter model need at 16-bit precision?,About 28 GB (per the document; real world is about 14 GB),28,14,ml_primer.md

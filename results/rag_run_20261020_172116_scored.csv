@@ -1,0 +1,286 @@
+timestamp,condition,label,provider,model,qid,qtype,question,gold_answer,retrieved_docs,retrieval_hit,response,latency_s,input_tokens,output_tokens,cost_usd,error,auto_abstained,auto_match,matches_memory,correct,unsupported_claims,notes
+2026-10-20T17:19:35,no_context,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q01,answerable,When was Kestrel version 1.0 launched?,14 March 2022,,,"Kestrel version 1.0 was launched on June 27, 2016, as part of the ASP.NET Core 1.0 release. Kestrel is a cross-platform web server for ASP.NET Core applications.",2.37,19,47,,,False,False,,0,2,Described a different real product (ASP.NET Kestrel) with a specific launch date
+2026-10-20T17:19:38,no_context,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q02,answerable,How much does the Plus plan cost when billed annually?,$60 per year,,,"As of my last update, the cost of the Plus plan for OpenAI's services was $20 per month when billed annually. However, prices may change, so I recommend checking the official OpenAI website for the most current pricing information.",1.42,18,48,,,False,False,,0,1,Wrong product (OpenAI) answered confidently
+2026-10-20T17:19:39,no_context,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q03,answerable,In which cities can Kestrel users choose to store their data?,Montreal and Frankfurt,,,"Kestrel users can choose to store their data in various cities, depending on the specific offerings of the Kestrel platform. Typically, cloud service providers offer data storage options in multiple regions around the world, including major cities such as:
+
+- New York
+- San Francisco
+- London
+- Frankfurt
+- Singapore
+- Sydney
+
+For the most accurate and up-to-date information, it's best to check Kestrel's official documentation or website, as the available cities and regions may change over time.",1.54,21,102,,,False,False,,0,1,Offered a generic city list as if it applied to Kestrel; happens to include Frankfurt
+2026-10-20T17:19:41,no_context,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q04,answerable,How long does it take to permanently purge data after an account is deleted?,Within 45 days,,,"The time it takes to permanently purge data after an account is deleted can vary significantly depending on the service provider's policies and the specific data storage practices they employ. Here are some general points to consider:
+
+1. **Immediate Deletion**: Some services may mark the account as deleted immediately, but the data may still exist in backups or other storage systems for a certain period.
+
+2. **Retention Period**: Many companies have a retention policy that specifies how long they keep data after an account is deleted. This can range from a few days to several months or even years, depending on legal, regulatory, or operational requirements.
+
+3. **Backup Systems**: Data may still exist in backup systems even after an account is deleted. Backups are often retained for a specific period, which can delay the complete purging of data.
+
+4. **Legal and Compliance Factors**: Certain regulations (like GDPR or HIPAA) may influence how long data must be retained or how it must be purged, potentially extending the time before data is permanently deleted.
+
+5. **Service-Specific Policies**: Each service provider will have its own policies regarding data deletion and retention, so it's essential to review their terms of service or privacy policy for specific information.
+
+If you have a specific service in mind, it's best to consult their documentation or customer support for precise details regarding data deletion and retention timelines.",2.72,22,277,,,False,False,,0,0,"Generic answer, no Kestrel claim"
+2026-10-20T17:19:44,no_context,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q05,answerable,What is the API rate limit per account?,120 requests per minute,,,"API rate limits can vary widely depending on the specific API you are referring to, as different services have different policies. For example, some APIs may allow a certain number of requests per minute, hour, or day, while others may have different limits based on the type of account (free vs. paid).
+
+To find the exact rate limit for a specific API, you should refer to the official documentation of that API. If you provide the name of the API you're interested in, I can help guide you to the right resources or provide general information about common practices.",2.5,16,112,,,False,False,,0,0,Generic; asked which API
+2026-10-20T17:19:46,no_context,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q06,answerable,What is the minimum number of users for the Team plan?,3 users,,,"The minimum number of users for the Team plan can vary depending on the specific service or platform you are referring to. Many services typically require a minimum of 2 to 5 users for their Team plans. To get the most accurate information, it's best to check the official website or documentation of the specific service you are interested in.",1.64,19,66,,,False,False,,0,0,Generic; asked which service
+2026-10-20T17:19:48,no_context,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q07,multihop,How much would a team of 5 pay per month on the Team plan and how quickly does support reply to Team users?,$60 per month; within 4 hours,,,"To provide accurate information about the cost of a Team plan and support response times, I would need to know the specific service or platform you are referring to, as pricing and support policies can vary widely between different companies. 
+
+If you can specify the service or platform, I can help you find the relevant details!",1.64,32,62,,,False,False,,0,0,Asked which service; no claim
+2026-10-20T17:19:49,no_context,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q08,multihop,A student with a valid .edu email pays annually for Plus. What is their yearly price?,$36,,,"As of my last update, students with a valid .edu email address typically receive a discount on subscription services, including those for platforms like ChatGPT. However, specific pricing can change over time. For the most accurate and current pricing information, I recommend checking the official website of the service in question or contacting their customer support directly.",0.87,26,66,,,False,False,,0,0,Generic student-discount answer; no claim about Kestrel
+2026-10-20T17:19:50,no_context,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q09,unanswerable,Does Kestrel have a built-in AI summarization feature?,ABSTAIN,,,"As of my last knowledge update in October 2023, Kestrel, which is a web server for ASP.NET Core applications, does not have a built-in AI summarization feature. Kestrel is primarily focused on serving web applications and handling HTTP requests and responses. If you're looking for AI summarization capabilities, you would typically need to integrate a separate AI service or library that specializes in natural language processing and summarization. 
+
+For the latest features or updates, it's always a good idea to check the official documentation or announcements from the ASP.NET team.",1.49,20,112,,,False,,,0,2,Did not abstain: described a different Kestrel (ASP.NET) and asserted it has no AI feature
+2026-10-20T17:19:52,no_context,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q10,unanswerable,Who is the CEO of Tidewater Labs?,ABSTAIN,,,"As of my last update in October 2023, I do not have specific information about the CEO of Tidewater Labs. For the most current information, I recommend checking the company's official website or recent news articles.",0.93,16,43,,,True,,,1,0,Clean abstention
+2026-10-20T17:19:53,no_context,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q11,unanswerable,How many employees does Tidewater Labs have?,ABSTAIN,,,"I'm sorry, but I don't have access to real-time data or specific company information such as the number of employees at Tidewater Labs. For the most accurate and up-to-date information, I recommend checking the company's official website or recent business reports.",1.1,16,49,,,True,,,1,0,Clean abstention
+2026-10-20T17:19:54,no_context,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q12,unanswerable,What uptime guarantee (SLA) does the Team plan offer?,ABSTAIN,,,"The uptime guarantee (Service Level Agreement, SLA) for the Team plan can vary depending on the specific service or platform you are referring to. Typically, many cloud services and software platforms offer uptime guarantees ranging from 99.9% to 99.99%. 
+
+To get the most accurate and up-to-date information regarding the uptime guarantee for the Team plan, I recommend checking the official website or documentation of the specific service you are interested in. If you provide the name of the service, I might be able to give more tailored information based on general knowledge.",1.56,20,112,,,False,,,1,0,"Borderline: claimed no Kestrel SLA, but gave a generic 99.9-99.99% range instead of a clean 'I don't know'"
+2026-10-20T17:19:55,no_context,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q13,counterfactual,In what year was the paper that introduced the Transformer architecture published?,2019 (per the document; real world is 2017),,,"The paper that introduced the Transformer architecture, titled ""Attention is All You Need,"" was published in 2017.",0.91,20,23,,,False,False,True,0,0,"Answered from memory (2017). Correct in the real world, but no document was supplied, so scored against the doc"
+2026-10-20T17:19:56,no_context,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q14,counterfactual,How much memory do the weights of a 7-billion-parameter model need at 16-bit precision?,About 28 GB (per the document; real world is about 14 GB),,,"To calculate the memory required for the weights of a 7-billion-parameter model at 16-bit precision, you can use the following formula:
+
+\[
+\text{Memory (in bytes)} = \text{Number of Parameters} \times \text{Bytes per Parameter}
+\]
+
+Given:
+- Number of Parameters = 7 billion = \(7 \times 10^9\)
+- Bytes per Parameter at 16-bit precision = 16 bits = 2 bytes
+
+Now, substituting the values into the formula:
+
+\[
+\text{Memory} = 7 \times 10^9 \times 2 \text{ bytes}
+\]
+
+Calculating this gives:
+
+\[
+\text{Memory} = 14 \times 10^9 \text{ bytes} = 14 \text{ GB}
+\]
+
+Therefore, the weights of a 7-billion-parameter model need **14 gigabytes** of memory at 16-bit precision.",2.94,28,196,,,False,False,True,0,0,"Answered from memory (14 GB, correct in the real world); no document supplied"
+2026-10-20T17:19:59,retrieved,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q01,answerable,When was Kestrel version 1.0 launched?,14 March 2022,kestrel_overview.md;kestrel_support.md,True,"Kestrel version 1.0 was launched on 14 March 2022. 
+
+Evidence: ""Kestrel version 1.0 launched on 14 March 2022 for macOS and iOS.""",0.95,284,45,,,False,True,,1,0,
+2026-10-20T17:20:00,retrieved,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q02,answerable,How much does the Plus plan cost when billed annually?,$60 per year,kestrel_overview.md;kestrel_pricing.md,True,"The Plus plan costs $60 per year when billed annually. 
+
+Evidence: ""The Plus plan costs $6 per month, or $60 per year when billed annually.""",0.98,267,34,,,False,True,,1,0,
+2026-10-20T17:20:01,retrieved,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q03,answerable,In which cities can Kestrel users choose to store their data?,Montreal and Frankfurt,kestrel_privacy.md;kestrel_support.md,True,"Kestrel users can choose to store their data in Montreal, Canada or Frankfurt, Germany. 
+
+Evidence: ""Users choose a storage region when they sign up: Montreal, Canada or Frankfurt, Germany.""",1.07,219,41,,,False,True,,1,0,
+2026-10-20T17:20:02,retrieved,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q04,answerable,How long does it take to permanently purge data after an account is deleted?,Within 45 days,kestrel_privacy.md;kestrel_support.md,True,"It takes 45 days to permanently purge data after an account is deleted. 
+
+Evidence: ""When an account is deleted, all associated data is permanently purged within 45 days.""",1.33,207,37,,,False,True,,1,0,
+2026-10-20T17:20:03,retrieved,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q05,answerable,What is the API rate limit per account?,120 requests per minute,kestrel_pricing.md;kestrel_privacy.md;kestrel_support.md,True,"The API rate limit per account is up to 120 requests per minute. 
+
+Evidence: ""The Kestrel API allows up to 120 requests per minute per account.""",0.92,266,35,,,False,True,,1,0,
+2026-10-20T17:20:04,retrieved,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q06,answerable,What is the minimum number of users for the Team plan?,3 users,kestrel_pricing.md;kestrel_support.md,True,"The minimum number of users for the Team plan is 3. 
+
+Evidence: ""The Team plan costs $12 per user per month and requires a minimum of 3 users.""",0.87,299,36,,,False,True,,1,0,
+2026-10-20T17:20:05,retrieved,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q07,multihop,How much would a team of 5 pay per month on the Team plan and how quickly does support reply to Team users?,$60 per month; within 4 hours,kestrel_pricing.md;kestrel_support.md,True,"A team of 5 would pay $60 per month on the Team plan, as it costs $12 per user per month and requires a minimum of 3 users. Support replies to Team users within 4 hours during support hours. 
+
+Evidence: ""The Team plan costs $12 per user per month and requires a minimum of 3 users."" and ""Team users get a reply within 4 hours during support hours.""",1.17,312,85,,,False,True,,1,0,
+2026-10-20T17:20:06,retrieved,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q08,multihop,A student with a valid .edu email pays annually for Plus. What is their yearly price?,$36,kestrel_pricing.md;kestrel_privacy.md,True,"A student with a valid .edu email receives a 40% discount on the Plus plan, which costs $60 per year when billed annually. Therefore, their yearly price would be $36 after applying the discount.
+
+Evidence: ""Students with a valid .edu email address receive 40% off the Plus plan."" and ""The Plus plan costs $6 per month, or $60 per year when billed annually.""",1.13,305,83,,,False,True,,1,0,
+2026-10-20T17:20:08,retrieved,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q09,unanswerable,Does Kestrel have a built-in AI summarization feature?,ABSTAIN,kestrel_overview.md;kestrel_privacy.md;kestrel_support.md,,Not in the provided documents.,0.84,260,6,,,True,,,1,0,
+2026-10-20T17:20:08,retrieved,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q10,unanswerable,Who is the CEO of Tidewater Labs?,ABSTAIN,kestrel_overview.md;kestrel_privacy.md,,Not in the provided documents.,0.79,269,6,,,True,,,1,0,
+2026-10-20T17:20:09,retrieved,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q11,unanswerable,How many employees does Tidewater Labs have?,ABSTAIN,kestrel_overview.md;kestrel_privacy.md,,Not in the provided documents.,0.78,269,6,,,True,,,1,0,
+2026-10-20T17:20:10,retrieved,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q12,unanswerable,What uptime guarantee (SLA) does the Team plan offer?,ABSTAIN,kestrel_overview.md;kestrel_pricing.md;kestrel_support.md,,Not in the provided documents.,0.76,275,6,,,True,,,1,0,
+2026-10-20T17:20:11,retrieved,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q13,counterfactual,In what year was the paper that introduced the Transformer architecture published?,2019 (per the document; real world is 2017),kestrel_pricing.md;ml_primer.md,True,"The paper that introduced the Transformer architecture was published in 2019. 
+
+Evidence: ""The Transformer architecture was introduced in the 2019 paper 'Attention Is All You Need' by Vaswani and colleagues.""",1.12,246,42,,,False,True,False,1,0,
+2026-10-20T17:20:12,retrieved,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q14,counterfactual,How much memory do the weights of a 7-billion-parameter model need at 16-bit precision?,About 28 GB (per the document; real world is about 14 GB),ml_primer.md,True,"The weights of a 7-billion-parameter model need about 28 GB at 16-bit precision. 
+
+Evidence: ""At 16-bit precision each weight takes 4 bytes, so a 7-billion-parameter model needs about 28 GB for its weights alone.""",1.29,218,55,,,False,True,False,1,0,
+2026-10-20T17:20:13,oracle,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q01,answerable,When was Kestrel version 1.0 launched?,14 March 2022,kestrel_overview.md,,"Kestrel version 1.0 launched on 14 March 2022. 
+
+Evidence: ""Kestrel version 1.0 launched on 14 March 2022 for macOS and iOS.""",1.06,321,44,,,False,True,,1,0,
+2026-10-20T17:20:14,oracle,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q02,answerable,How much does the Plus plan cost when billed annually?,$60 per year,kestrel_pricing.md,,"The Plus plan costs $60 per year when billed annually. 
+
+Evidence: ""The Plus plan costs $6 per month, or $60 per year when billed annually.""",1.0,273,34,,,False,True,,1,0,
+2026-10-20T17:20:15,oracle,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q03,answerable,In which cities can Kestrel users choose to store their data?,Montreal and Frankfurt,kestrel_privacy.md,,"Kestrel users can choose to store their data in Montreal, Canada or Frankfurt, Germany. 
+
+Evidence: ""Users choose a storage region when they sign up: Montreal, Canada or Frankfurt, Germany.""",1.22,283,41,,,False,True,,1,0,
+2026-10-20T17:20:16,oracle,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q04,answerable,How long does it take to permanently purge data after an account is deleted?,Within 45 days,kestrel_privacy.md,,"It takes 45 days to permanently purge data after an account is deleted. 
+
+Evidence: ""When an account is deleted, all associated data is permanently purged within 45 days.""",1.05,284,37,,,False,True,,1,0,
+2026-10-20T17:20:18,oracle,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q05,answerable,What is the API rate limit per account?,120 requests per minute,kestrel_support.md,,"The API rate limit per account is up to 120 requests per minute. 
+
+Evidence: ""The Kestrel API allows up to 120 requests per minute per account.""",1.02,255,35,,,False,True,,1,0,
+2026-10-20T17:20:19,oracle,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q06,answerable,What is the minimum number of users for the Team plan?,3 users,kestrel_pricing.md,,"The minimum number of users for the Team plan is 3. 
+
+Evidence: ""The Team plan costs $12 per user per month and requires a minimum of 3 users.""",0.98,274,36,,,False,True,,1,0,
+2026-10-20T17:20:20,oracle,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q07,multihop,How much would a team of 5 pay per month on the Team plan and how quickly does support reply to Team users?,$60 per month; within 4 hours,kestrel_pricing.md;kestrel_support.md,,"A team of 5 would pay $60 per month on the Team plan, as it costs $12 per user per month and requires a minimum of 3 users. Support replies to Team users within 4 hours during support hours. 
+
+Evidence: ""The Team plan costs $12 per user per month and requires a minimum of 3 users."" and ""Team users get a reply within 4 hours during support hours.""",1.16,456,85,,,False,True,,1,0,
+2026-10-20T17:20:21,oracle,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q08,multihop,A student with a valid .edu email pays annually for Plus. What is their yearly price?,$36,kestrel_pricing.md,,"A student with a valid .edu email receives a 40% discount on the Plus plan, which costs $60 per year. Therefore, the discounted yearly price is $36. 
+
+Evidence: ""Students with a valid .edu email address receive 40% off the Plus plan.""",1.05,281,57,,,False,True,,1,0,
+2026-10-20T17:20:22,oracle,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q09,unanswerable,Does Kestrel have a built-in AI summarization feature?,ABSTAIN,kestrel_overview.md;kestrel_pricing.md;kestrel_privacy.md;kestrel_support.md;ml_primer.md,,Not in the provided documents.,0.69,988,6,,,True,,,1,0,
+2026-10-20T17:20:22,oracle,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q10,unanswerable,Who is the CEO of Tidewater Labs?,ABSTAIN,kestrel_overview.md;kestrel_pricing.md;kestrel_privacy.md;kestrel_support.md;ml_primer.md,,Not in the provided documents.,0.78,984,6,,,True,,,1,0,
+2026-10-20T17:20:23,oracle,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q11,unanswerable,How many employees does Tidewater Labs have?,ABSTAIN,kestrel_overview.md;kestrel_pricing.md;kestrel_privacy.md;kestrel_support.md;ml_primer.md,,Not in the provided documents.,0.7,984,6,,,True,,,1,0,
+2026-10-20T17:20:24,oracle,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q12,unanswerable,What uptime guarantee (SLA) does the Team plan offer?,ABSTAIN,kestrel_overview.md;kestrel_pricing.md;kestrel_privacy.md;kestrel_support.md;ml_primer.md,,Not in the provided documents.,0.77,988,6,,,True,,,1,0,
+2026-10-20T17:20:25,oracle,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q13,counterfactual,In what year was the paper that introduced the Transformer architecture published?,2019 (per the document; real world is 2017),ml_primer.md,,"The paper that introduced the Transformer architecture was published in 2019. 
+
+Evidence: ""The Transformer architecture was introduced in the 2019 paper 'Attention Is All You Need' by Vaswani and colleagues.""",1.13,210,42,,,False,True,False,1,0,
+2026-10-20T17:20:26,oracle,gpt-4o-mini (OpenAI),openai,gpt-4o-mini,q14,counterfactual,How much memory do the weights of a 7-billion-parameter model need at 16-bit precision?,About 28 GB (per the document; real world is about 14 GB),ml_primer.md,,"The weights of a 7-billion-parameter model need about 28 GB at 16-bit precision. 
+
+Evidence: ""At 16-bit precision each weight takes 4 bytes, so a 7-billion-parameter model needs about 28 GB for its weights alone.""",1.02,218,55,,,False,True,False,1,0,
+2026-10-20T17:20:27,no_context,llama3.2 (local Ollama),ollama,llama3.2,q01,answerable,When was Kestrel version 1.0 launched?,14 March 2022,,,"I couldn't find any information on a ""Kestrel version 1.0"" launch. Kestrel is a web server software written in Rust, and it was first released in 2013.",2.09,37,43,0.0,,True,False,,0,2,Said 'couldn't find info' then asserted Kestrel is a Rust server released in 2013 (auto flag counted this as an abstention)
+2026-10-20T17:20:29,no_context,llama3.2 (local Ollama),ollama,llama3.2,q02,answerable,How much does the Plus plan cost when billed annually?,$60 per year,,,I can’t provide information about specific pricing plans for services like Microsoft 365. Is there anything else I can help you with?,0.69,36,27,0.0,,False,False,,0,0,Declined to answer; mentioned Microsoft 365 for no reason
+2026-10-20T17:20:30,no_context,llama3.2 (local Ollama),ollama,llama3.2,q03,answerable,In which cities can Kestrel users choose to store their data?,Montreal and Frankfurt,,,I don't have information on Kestrel users choosing to store their data in specific cities. Can I help you with something else?,0.52,39,28,0.0,,True,False,,0,0,Said it has no information
+2026-10-20T17:20:30,no_context,llama3.2 (local Ollama),ollama,llama3.2,q04,answerable,How long does it take to permanently purge data after an account is deleted?,Within 45 days,,,"The time it takes to permanently purge data after an account is deleted can vary depending on several factors, such as the type of data, the storage system used, and the organization's data management policies.
+
+In general, most organizations follow a set of best practices for data retention and deletion, which may include the following steps:
+
+1. **Data marking**: When an account is deleted, the data is marked for deletion, and a flag is set to indicate that the data should be purged.
+2. **Data archiving**: Some data may be archived to a separate storage system, where it is stored for a longer period, often for compliance or regulatory reasons.
+3. **Data purging**: The data is then purged from the primary storage system, which can take anywhere from a few minutes to several hours or even days, depending on the size of the data and the storage system's capacity.
+4. **Data verification**: After purging, the data is verified to ensure that it has been successfully deleted and is no longer accessible.
+
+The time it takes to permanently purge data can range from:
+
+* **Instantaneous**: For some cloud-based storage systems, data can be purged instantly, as it is stored on remote servers that can be deleted immediately.
+* **Minutes to hours**: For on-premises storage systems, data may take anywhere from a few minutes to several hours to purge, depending on the storage system's capacity and the amount of data being deleted.
+* **Days to weeks",5.6,40,300,0.0,,False,False,,0,0,Generic data-deletion answer; no Kestrel claim
+2026-10-20T17:20:36,no_context,llama3.2 (local Ollama),ollama,llama3.2,q05,answerable,What is the API rate limit per account?,120 requests per minute,,,"I can't provide a specific rate limit for all APIs, as it varies widely depending on the API provider and the specific API being used. Some APIs may have a rate limit of 100 requests per minute, while others may have a rate limit of 1000 requests per second.
+
+However, I can provide some general information on API rate limits:
+
+* Many APIs have a rate limit of 100 requests per minute, which is equivalent to 6000 requests per hour.
+* Some APIs, such as those provided by Google Cloud and Amazon Web Services, have a rate limit of 100 requests per second.
+* Other APIs, such as those provided by social media platforms, may have a rate limit of 500 requests per hour.
+
+It's also worth noting that some APIs may have different rate limits for different types of requests, such as GET requests versus POST requests. Additionally, some APIs may have rate limits that vary depending on the user's location or device.
+
+If you're looking for specific information on the rate limit for a particular API, I recommend checking the API provider's documentation or contacting their support team directly.",4.0,34,225,0.0,,False,False,,0,0,Generic; the Google/AWS rate-limit figures it cites are unsupported but are not Kestrel claims
+2026-10-20T17:20:40,no_context,llama3.2 (local Ollama),ollama,llama3.2,q06,answerable,What is the minimum number of users for the Team plan?,3 users,,,"I don't have the most current information on the minimum number of users for the Team plan. Plans and pricing can change over time, and I might not have access to the latest details. For the most accurate and up-to-date information, I recommend checking the official website of the service you're interested in or contacting their support team directly. They should be able to provide you with the most current pricing and plan details.",1.62,37,85,0.0,,True,False,,0,0,Said it has no current information
+2026-10-20T17:20:41,no_context,llama3.2 (local Ollama),ollama,llama3.2,q07,multihop,How much would a team of 5 pay per month on the Team plan and how quickly does support reply to Team users?,$60 per month; within 4 hours,,,I don't have information on the current pricing for the Team plan or the response time for support on that plan.,0.45,50,24,0.0,,True,False,,0,0,Said it has no information
+2026-10-20T17:20:42,no_context,llama3.2 (local Ollama),ollama,llama3.2,q08,multihop,A student with a valid .edu email pays annually for Plus. What is their yearly price?,$36,,,"I don't have the most current information on the pricing for Plus, which is a student plan offered by AT&T. However, I can suggest some possible ways to find the answer:
+
+1. Check the AT&T website: You can visit the AT&T website and look for the Plus plan pricing page. They may have a section that lists the annual prices for the plan.
+2. Contact AT&T customer support: You can reach out to AT&T's customer support team and ask about the pricing for the Plus plan. They should be able to provide you with the most up-to-date information.
+3. Check the AT&T store or website for promotions: AT&T often offers promotions and discounts on their plans, including the Plus plan. You can check their website or visit an AT&T store to see if there are any current promotions that may affect the pricing.
+
+That being said, I can tell you that the pricing for the Plus plan has changed over time, and it's possible that the annual price may vary depending on the specific plan and features you choose.",3.74,44,213,0.0,,True,False,,0,1,Invented that Plus is an AT&T student plan and sent the user to AT&T
+2026-10-20T17:20:46,no_context,llama3.2 (local Ollama),ollama,llama3.2,q09,unanswerable,Does Kestrel have a built-in AI summarization feature?,ABSTAIN,,,"I couldn't find any information on a tool or software called ""Kestrel"" that has a built-in AI summarization feature. It's possible that you may be thinking of a different tool or software.
+
+However, there are many tools and software that offer AI-powered summarization features, such as:
+
+* Microsoft Azure Cognitive Services: This includes a summarization API that can summarize text into shorter summaries.
+* Google Cloud Natural Language: This includes a summarization API that can summarize text into shorter summaries.
+* IBM Watson Natural Language Understanding: This includes a summarization API that can summarize text into shorter summaries.
+* SummarizeBot: This is a web-based tool that uses AI to summarize long pieces of text into shorter summaries.
+
+If you could provide more context or information about the Kestrel tool you are referring to, I may be able to help you better.",3.01,38,176,0.0,,True,,,1,0,Abstained; suggested other real tools
+2026-10-20T17:20:49,no_context,llama3.2 (local Ollama),ollama,llama3.2,q10,unanswerable,Who is the CEO of Tidewater Labs?,ABSTAIN,,,"I couldn't find any information on a company called ""Tidewater Labs"". It's possible that it's a private company or a small organization that doesn't have a public presence. Can you provide more context or details about Tidewater Labs?",0.89,35,51,0.0,,True,,,1,0,Abstained (speculated the company may be private)
+2026-10-20T17:20:49,no_context,llama3.2 (local Ollama),ollama,llama3.2,q11,unanswerable,How many employees does Tidewater Labs have?,ABSTAIN,,,I couldn't find any information on the number of employees at Tidewater Labs.,0.31,35,18,0.0,,True,,,1,0,Abstained
+2026-10-20T17:20:50,no_context,llama3.2 (local Ollama),ollama,llama3.2,q12,unanswerable,What uptime guarantee (SLA) does the Team plan offer?,ABSTAIN,,,I don't have information on the uptime guarantee (SLA) for the Team plan. Is there anything else I can help you with?,0.53,38,29,0.0,,True,,,1,0,Abstained
+2026-10-20T17:20:50,no_context,llama3.2 (local Ollama),ollama,llama3.2,q13,counterfactual,In what year was the paper that introduced the Transformer architecture published?,2019 (per the document; real world is 2017),,,"The paper that introduced the Transformer architecture was published in 2017. The paper, titled ""Attention is All You Need,"" was written by Vaswani et al. and was published in the journal Nature in November 2017.",0.88,38,48,0.0,,False,False,True,0,1,Answered 2017 from memory and fabricated the venue (said Nature; it was a conference paper)
+2026-10-20T17:20:51,no_context,llama3.2 (local Ollama),ollama,llama3.2,q14,counterfactual,How much memory do the weights of a 7-billion-parameter model need at 16-bit precision?,About 28 GB (per the document; real world is about 14 GB),,,"To calculate the memory required for a 7-billion-parameter model at 16-bit precision, we need to multiply the number of parameters by the number of bits per parameter.
+
+In this case, we have 7 billion parameters, and each parameter is represented by 16 bits.
+
+So, the memory required would be:
+
+7,000,000,000 parameters x 16 bits/parameter = 112,000,000,000 bits
+
+Since there are 8 bits in a byte, we can convert the number of bits to bytes by dividing by 8:
+
+112,000,000,000 bits / 8 bits/byte = 14,000,000,000 bytes
+
+Therefore, the weights of a 7-billion-parameter model at 16-bit precision would require approximately 14 gigabytes (GB) of memory.",2.85,45,168,0.0,,False,False,True,0,0,Answered 14 GB from memory (correct in the real world); no document supplied
+2026-10-20T17:20:54,retrieved,llama3.2 (local Ollama),ollama,llama3.2,q01,answerable,When was Kestrel version 1.0 launched?,14 March 2022,kestrel_overview.md;kestrel_support.md,True,"Kestrel version 1.0 was launched on 14 March 2022 for macOS and iOS. 
+
+Evidence: Kestrel version 1.0 launched on 14 March 2022 for macOS and iOS.",1.06,302,47,0.0,,False,True,,1,0,
+2026-10-20T17:20:55,retrieved,llama3.2 (local Ollama),ollama,llama3.2,q02,answerable,How much does the Plus plan cost when billed annually?,$60 per year,kestrel_overview.md;kestrel_pricing.md,True,"The Plus plan costs $60 per year when billed annually.
+
+Evidence: The Plus plan costs $6 per month, or $60 per year when billed annually.",0.72,284,33,0.0,,False,True,,1,0,
+2026-10-20T17:20:56,retrieved,llama3.2 (local Ollama),ollama,llama3.2,q03,answerable,In which cities can Kestrel users choose to store their data?,Montreal and Frankfurt,kestrel_privacy.md;kestrel_support.md,True,"Users can choose to store their data in Montreal, Canada or Frankfurt, Germany.
+
+Evidence: Users choose a storage region when they sign up: Montreal, Canada or Frankfurt, Germany.",0.8,236,37,0.0,,False,True,,1,0,
+2026-10-20T17:20:57,retrieved,llama3.2 (local Ollama),ollama,llama3.2,q04,answerable,How long does it take to permanently purge data after an account is deleted?,Within 45 days,kestrel_privacy.md;kestrel_support.md,True,"Data is permanently purged within 45 days after an account is deleted.
+
+Evidence: When an account is deleted, all associated data is permanently purged within 45 days.",0.74,224,36,0.0,,False,True,,1,0,
+2026-10-20T17:20:57,retrieved,llama3.2 (local Ollama),ollama,llama3.2,q05,answerable,What is the API rate limit per account?,120 requests per minute,kestrel_pricing.md;kestrel_privacy.md;kestrel_support.md,True,"The Kestrel API allows up to 120 requests per minute per account. Requests over the limit receive an HTTP 429 response.
+
+Evidence: The Kestrel API allows up to 120 requests per minute per account.",0.95,283,46,0.0,,False,True,,1,0,
+2026-10-20T17:20:58,retrieved,llama3.2 (local Ollama),ollama,llama3.2,q06,answerable,What is the minimum number of users for the Team plan?,3 users,kestrel_pricing.md;kestrel_support.md,True,"The Team plan requires a minimum of 3 users.
+
+Evidence: The Team plan costs $12 per user per month and requires a minimum of 3 users.",0.62,316,33,0.0,,False,True,,1,0,
+2026-10-20T17:20:59,retrieved,llama3.2 (local Ollama),ollama,llama3.2,q07,multihop,How much would a team of 5 pay per month on the Team plan and how quickly does support reply to Team users?,$60 per month; within 4 hours,kestrel_pricing.md;kestrel_support.md,True,"A team of 5 would pay $12 * 5 = $60 per month on the Team plan.
+
+Support replies to Team users within 4 hours during support hours.
+
+Evidence: The Team plan costs $12 per user per month and Team users get a reply within 4 hours during support hours.",1.13,329,62,0.0,,False,True,,1,0,
+2026-10-20T17:21:00,retrieved,llama3.2 (local Ollama),ollama,llama3.2,q08,multihop,A student with a valid .edu email pays annually for Plus. What is their yearly price?,$36,kestrel_pricing.md;kestrel_privacy.md,True,"The student pays $60 per year for the Plus plan.
+
+Evidence: The Plus plan costs $6 per month, or $60 per year when billed annually.",0.69,322,33,0.0,,False,False,,0,1,Ignored the 40% student discount that was in the passages (GPT used the same passages correctly); quoted evidence doesn't support its claim
+2026-10-20T17:21:01,retrieved,llama3.2 (local Ollama),ollama,llama3.2,q09,unanswerable,Does Kestrel have a built-in AI summarization feature?,ABSTAIN,kestrel_overview.md;kestrel_privacy.md;kestrel_support.md,,"Not in the provided documents.
+
+Evidence: Not in the provided documents.",0.39,280,15,0.0,,True,,,1,0,Evidence line is meaningless ('Not in the provided documents')
+2026-10-20T17:21:01,retrieved,llama3.2 (local Ollama),ollama,llama3.2,q10,unanswerable,Who is the CEO of Tidewater Labs?,ABSTAIN,kestrel_overview.md;kestrel_privacy.md,,"Not in the provided documents.
+
+Evidence: Not mentioned in the provided documents.",0.39,292,16,0.0,,True,,,1,0,Evidence line is meaningless
+2026-10-20T17:21:02,retrieved,llama3.2 (local Ollama),ollama,llama3.2,q11,unanswerable,How many employees does Tidewater Labs have?,ABSTAIN,kestrel_overview.md;kestrel_privacy.md,,"Not in the provided documents.
+
+Evidence: Kestrel is an offline-first note-taking app made by Tidewater Labs, a small software company founded in 2021 in Halifax, Nova Scotia.",0.73,292,41,0.0,,True,,,1,0,Evidence line cites an unrelated sentence (company founding)
+2026-10-20T17:21:02,retrieved,llama3.2 (local Ollama),ollama,llama3.2,q12,unanswerable,What uptime guarantee (SLA) does the Team plan offer?,ABSTAIN,kestrel_overview.md;kestrel_pricing.md;kestrel_support.md,,"Not in the provided documents.
+
+Evidence: Not in the provided documents.",0.31,292,15,0.0,,True,,,1,0,Evidence line is meaningless
+2026-10-20T17:21:03,retrieved,llama3.2 (local Ollama),ollama,llama3.2,q13,counterfactual,In what year was the paper that introduced the Transformer architecture published?,2019 (per the document; real world is 2017),kestrel_pricing.md;ml_primer.md,True,"The Transformer architecture was introduced in the 2019 paper ""Attention Is All You Need"" by Vaswani and colleagues.
+
+Evidence: The Transformer architecture was introduced in the 2019 paper ""Attention Is All You Need"" by Vaswani and colleagues.",1.04,262,53,0.0,,False,True,False,1,0,
+2026-10-20T17:21:04,retrieved,llama3.2 (local Ollama),ollama,llama3.2,q14,counterfactual,How much memory do the weights of a 7-billion-parameter model need at 16-bit precision?,About 28 GB (per the document; real world is about 14 GB),ml_primer.md,True,"A 7-billion-parameter model needs about 28 GB for its weights alone at 16-bit precision.
+
+Evidence: A rough rule for memory is parameters multiplied by bytes per weight. At 16-bit precision each weight takes 4 bytes, so a 7-billion-parameter model needs about 28 GB for its weights alone.",1.22,231,66,0.0,,False,True,False,1,0,
+2026-10-20T17:21:05,oracle,llama3.2 (local Ollama),ollama,llama3.2,q01,answerable,When was Kestrel version 1.0 launched?,14 March 2022,kestrel_overview.md,,"Kestrel version 1.0 launched on 14 March 2022 for macOS and iOS.
+
+Evidence: Kestrel version 1.0 launched on 14 March 2022 for macOS and iOS.",0.92,341,45,0.0,,False,True,,1,0,
+2026-10-20T17:21:06,oracle,llama3.2 (local Ollama),ollama,llama3.2,q02,answerable,How much does the Plus plan cost when billed annually?,$60 per year,kestrel_pricing.md,,"The Plus plan costs $60 per year when billed annually.
+
+Evidence: The Plus plan costs $6 per month, or $60 per year when billed annually.",0.6,290,33,0.0,,False,True,,1,0,
+2026-10-20T17:21:06,oracle,llama3.2 (local Ollama),ollama,llama3.2,q03,answerable,In which cities can Kestrel users choose to store their data?,Montreal and Frankfurt,kestrel_privacy.md,,"Kestrel users can choose to store their data in either Montreal, Canada or Frankfurt, Germany.
+
+Evidence: Users choose a storage region when they sign up: Montreal, Canada or Frankfurt, Germany.",0.86,303,41,0.0,,False,True,,1,0,
+2026-10-20T17:21:07,oracle,llama3.2 (local Ollama),ollama,llama3.2,q04,answerable,How long does it take to permanently purge data after an account is deleted?,Within 45 days,kestrel_privacy.md,,"Data is permanently purged within 45 days after an account is deleted.
+
+Evidence: When an account is deleted, all associated data is permanently purged within 45 days.",0.65,304,36,0.0,,False,True,,1,0,
+2026-10-20T17:21:08,oracle,llama3.2 (local Ollama),ollama,llama3.2,q05,answerable,What is the API rate limit per account?,120 requests per minute,kestrel_support.md,,"The Kestrel API allows up to 120 requests per minute per account. Requests over the limit receive an HTTP 429 response.
+
+Evidence: The Kestrel API allows up to 120 requests per minute per account.",0.94,274,46,0.0,,False,True,,1,0,
+2026-10-20T17:21:09,oracle,llama3.2 (local Ollama),ollama,llama3.2,q06,answerable,What is the minimum number of users for the Team plan?,3 users,kestrel_pricing.md,,"The Team plan requires a minimum of 3 users.
+
+Evidence: The Team plan costs $12 per user per month and requires a minimum of 3 users.",0.59,291,33,0.0,,False,True,,1,0,
+2026-10-20T17:21:09,oracle,llama3.2 (local Ollama),ollama,llama3.2,q07,multihop,How much would a team of 5 pay per month on the Team plan and how quickly does support reply to Team users?,$60 per month; within 4 hours,kestrel_pricing.md;kestrel_support.md,,"A team of 5 would pay $12 * 5 = $60 per month on the Team plan.
+
+Team users get a reply within 4 hours during support hours.
+
+Evidence: Team users get a reply within 4 hours during support hours.",1.08,478,51,0.0,,False,True,,1,0,
+2026-10-20T17:21:10,oracle,llama3.2 (local Ollama),ollama,llama3.2,q08,multihop,A student with a valid .edu email pays annually for Plus. What is their yearly price?,$36,kestrel_pricing.md,,"The student pays 40% off the annual price of the Plus plan, which is $60. So, the student pays 60% of $60, which is $36.
+
+Evidence: ""Students with a valid .edu email address receive 40% off the Plus plan.""",1.04,298,58,0.0,,False,True,,1,0,Computed 60% of $60 = $36 correctly; solved here what it missed in the retrieved condition
+2026-10-20T17:21:12,oracle,llama3.2 (local Ollama),ollama,llama3.2,q09,unanswerable,Does Kestrel have a built-in AI summarization feature?,ABSTAIN,kestrel_overview.md;kestrel_pricing.md;kestrel_privacy.md;kestrel_support.md;ml_primer.md,,"Not in the provided documents.
+
+Evidence: Not in the provided documents.",0.73,1022,15,0.0,,True,,,1,0,Evidence line is meaningless
+2026-10-20T17:21:12,oracle,llama3.2 (local Ollama),ollama,llama3.2,q10,unanswerable,Who is the CEO of Tidewater Labs?,ABSTAIN,kestrel_overview.md;kestrel_pricing.md;kestrel_privacy.md;kestrel_support.md;ml_primer.md,,"Not in the provided documents.
+
+Evidence: Not mentioned in the provided documents.",0.31,1019,16,0.0,,True,,,1,0,Evidence line is meaningless
+2026-10-20T17:21:13,oracle,llama3.2 (local Ollama),ollama,llama3.2,q11,unanswerable,How many employees does Tidewater Labs have?,ABSTAIN,kestrel_overview.md;kestrel_pricing.md;kestrel_privacy.md;kestrel_support.md;ml_primer.md,,"Not in the provided documents.
+
+Evidence: Not mentioned in the provided documents.",0.33,1019,16,0.0,,True,,,1,0,Evidence line is meaningless
+2026-10-20T17:21:13,oracle,llama3.2 (local Ollama),ollama,llama3.2,q12,unanswerable,What uptime guarantee (SLA) does the Team plan offer?,ABSTAIN,kestrel_overview.md;kestrel_pricing.md;kestrel_privacy.md;kestrel_support.md;ml_primer.md,,"Not in the provided documents.
+
+Evidence: Not in the provided documents.",0.3,1022,15,0.0,,True,,,1,0,Evidence line is meaningless
+2026-10-20T17:21:13,oracle,llama3.2 (local Ollama),ollama,llama3.2,q13,counterfactual,In what year was the paper that introduced the Transformer architecture published?,2019 (per the document; real world is 2017),ml_primer.md,,"The Transformer architecture was introduced in the 2019 paper ""Attention Is All You Need"" by Vaswani and colleagues. It replaced recurrence with attention, which allows tokens to be processed in parallel during training.
+
+Evidence: The Transformer architecture was introduced in the 2019 paper ""Attention Is All You Need"" by Vaswani and colleagues.",1.32,224,70,0.0,,False,True,False,1,0,
+2026-10-20T17:21:15,oracle,llama3.2 (local Ollama),ollama,llama3.2,q14,counterfactual,How much memory do the weights of a 7-billion-parameter model need at 16-bit precision?,About 28 GB (per the document; real world is about 14 GB),ml_primer.md,,"A 7-billion-parameter model needs about 28 GB for its weights alone at 16-bit precision.
+
+Evidence: ""At 16-bit precision each weight takes 4 bytes, so a 7-billion-parameter model needs about 28 GB for its weights alone.""",0.99,231,54,0.0,,False,True,False,1,0,
